@@ -11,7 +11,11 @@ Cada projeto será mantido em um repositório próprio e conectado aqui como sub
 
 ## Estrutura
 
-Neste momento, o repositório contém apenas esta documentação. Os diretórios dos estudos serão adicionados como submódulos conforme cada POC for criada.
+| Caminho | Repositório | Conteúdo |
+| --- | --- | --- |
+| `skills/` | [AlexandreJareck/skills](https://github.com/AlexandreJareck/skills) | Estudos e implementações de skills para agentes de IA. |
+
+Os próximos estudos serão adicionados como submódulos conforme cada POC for criada.
 
 ## Pré-requisitos
 
