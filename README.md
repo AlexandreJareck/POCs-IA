@@ -11,7 +11,7 @@ Centralizar o acesso às POCs de IA sem misturar código, dependências ou hist�
 
 | Projeto | Caminho | Descrição |
 | --- | --- | --- |
-| [Skills](https://github.com/AlexandreJareck/skills) | [`skills/`](./skills/) | Coleção de skills experimentais para Codex e agentes compatíveis com o formato `SKILL.md`. |
+| [Skill Labs](https://github.com/AlexandreJareck/skill-labs) | [`skill-labs/`](./skill-labs/) | Coleção de skills experimentais para Codex e agentes compatíveis com o formato `SKILL.md`. |
 | [MCP Labs](https://github.com/AlexandreJareck/mcp-labs) | [`mcp-labs/`](./mcp-labs/) | Monorepo de estudos e construção de servidores MCP em Python. |
 
 A relação acima corresponde aos submódulos registrados no arquivo [`.gitmodules`](./.gitmodules).
@@ -36,7 +36,7 @@ git submodule update --init --recursive
 Acesse o diretório do projeto desejado e consulte seu próprio `README.md` para conhecer instalação, comandos e validações específicos. Por exemplo:
 
 ```powershell
-cd skills
+cd skill-labs
 # ou
 cd mcp-labs
 ```
