@@ -23,7 +23,7 @@ Neste momento, o repositório contém apenas esta documentação. Os diretórios
 Clone o repositório:
 
 ```powershell
-git clone <repository-url>
+git clone https://github.com/AlexandreJareck/POCs-IA.git
 cd POCs-IA
 ```
 
