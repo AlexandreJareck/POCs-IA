@@ -1,49 +1,52 @@
 # POCs-IA
 
-Repositório agregador para estudos e provas de conceito de inteligência artificial.
-Cada projeto será mantido em um repositório próprio e conectado aqui como submódulo Git.
+Repositório agregador de estudos e provas de conceito de inteligência artificial.
+Os projetos mantêm históricos Git independentes e são vinculados a este repositório como submódulos.
 
 ## Objetivo
 
-- Organizar POCs independentes sem misturar seus históricos.
-- Reunir estudos de skills, MCP e outros experimentos de IA.
-- Permitir que todos os projetos sejam obtidos a partir de um único repositório agregador.
+Centralizar o acesso às POCs de IA sem misturar código, dependências ou histórico de alterações entre os projetos.
 
-## Estrutura
+## Projetos
 
-| Caminho | Repositório | Conteúdo |
+| Projeto | Caminho | Descrição |
 | --- | --- | --- |
-| `skills/` | [AlexandreJareck/skills](https://github.com/AlexandreJareck/skills) | Estudos e implementações de skills para agentes de IA. |
+| [Skills](https://github.com/AlexandreJareck/skills) | [`skills/`](./skills/) | Coleção de skills experimentais para Codex e agentes compatíveis com o formato `SKILL.md`. |
 
-Os próximos estudos serão adicionados como submódulos conforme cada POC for criada.
+A relação acima corresponde aos submódulos registrados no arquivo [`.gitmodules`](./.gitmodules).
 
 ## Pré-requisitos
 
 - Git 2.51 ou compatível.
-- Acesso aos repositórios privados referenciados pelos futuros submódulos.
+- Acesso aos repositórios privados utilizados como submódulos.
 
 ## Instalação
 
-Clone o repositório:
+Clone o repositório e inicialize seus submódulos:
 
 ```powershell
 git clone https://github.com/AlexandreJareck/POCs-IA.git
 cd POCs-IA
-```
-
-Quando houver submódulos, inicialize-os com:
-
-```powershell
 git submodule update --init --recursive
 ```
 
 ## Uso
 
-Cada diretório filho imediato representará uma POC independente. Consulte o `README.md` do projeto correspondente para seus comandos específicos.
+Acesse o diretório do projeto desejado e consulte seu próprio `README.md` para conhecer instalação, comandos e validações específicos. Por exemplo:
+
+```powershell
+cd skills
+```
+
+Para restaurar os submódulos nos commits registrados pelo agregador, execute na raiz de `POCs-IA`:
+
+```powershell
+git submodule update --init --recursive
+```
 
 ## Validação
 
-Confira o estado do agregador e de seus submódulos com:
+Confira o estado do repositório principal e dos submódulos:
 
 ```powershell
 git status
