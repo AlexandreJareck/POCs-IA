@@ -1,3 +1,6 @@
 [submodule "skills"]
 	path = skills
 	url = https://github.com/AlexandreJareck/skills.git
+[submodule "mcp-labs"]
+	path = mcp-labs
+	url = https://github.com/AlexandreJareck/mcp-labs.git

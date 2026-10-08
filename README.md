@@ -12,6 +12,7 @@ Centralizar o acesso às POCs de IA sem misturar código, dependências ou hist�
 | Projeto | Caminho | Descrição |
 | --- | --- | --- |
 | [Skills](https://github.com/AlexandreJareck/skills) | [`skills/`](./skills/) | Coleção de skills experimentais para Codex e agentes compatíveis com o formato `SKILL.md`. |
+| [MCP Labs](https://github.com/AlexandreJareck/mcp-labs) | [`mcp-labs/`](./mcp-labs/) | Monorepo de estudos e construção de servidores MCP em Python. |
 
 A relação acima corresponde aos submódulos registrados no arquivo [`.gitmodules`](./.gitmodules).
 
@@ -36,6 +37,8 @@ Acesse o diretório do projeto desejado e consulte seu próprio `README.md` para
 
 ```powershell
 cd skills
+# ou
+cd mcp-labs
 ```
 
 Para restaurar os submódulos nos commits registrados pelo agregador, execute na raiz de `POCs-IA`:
